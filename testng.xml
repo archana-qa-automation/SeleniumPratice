@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"><suite name="Selenium Test Suite">
+    <test name="Smoke Test">    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+
+    <parameter name="policyNumber" value="POL102"/>
+
+    <classes>
+        <class name="SeleniumPratice.SeleniumPratice.tests.LoginTest"/>
+        <class name="SeleniumPratice.SeleniumPratice.tests.PaymentTest"/>
+        <class name="SeleniumPratice.SeleniumPratice.tests.PolicySearchTest"/>
+    </classes>
+
+</test>
+
+</suite>

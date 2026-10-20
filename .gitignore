@@ -1,0 +1,13 @@
+target/
+test-output/
+Logs/
+screenshots/
+*.log
+*.tmp
+.classpath
+.project
+.settings/
+
+# Local configuration and secrets
+src/test/java/config.properties
+src/test/resources/config.properties
