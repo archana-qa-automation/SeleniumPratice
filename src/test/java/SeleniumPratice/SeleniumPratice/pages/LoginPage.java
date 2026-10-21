@@ -27,6 +27,7 @@ public class LoginPage {
     }
 
  // Practicing Git change tracking
+ // Feature branch practice
     public void login(String user, String pass) {
 
         System.out.println("Entering username...");
