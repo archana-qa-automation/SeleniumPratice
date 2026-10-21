@@ -26,6 +26,7 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
+ // Practicing Git change tracking
     public void login(String user, String pass) {
 
         System.out.println("Entering username...");
